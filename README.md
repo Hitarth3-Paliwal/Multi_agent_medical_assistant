@@ -236,15 +236,4 @@ python ingest_rag_data.py --dir ./data/raw
 ```
 
 ---
-
-## 🧠 Usage  <a name="usage"></a>
-
-> [!NOTE]
-> 1. The first run can be jittery and may get errors - be patient and check the console for ongoing downloads and installations.
-> 2. On the first run, many models will be downloaded - yolo for tesseract ocr, computer vision agent models, cross-encoder reranker model, etc.
-> 3. Once they are completed, retry. Everything should work seamlessly since all of it is thoroughly tested.
-
-- Upload medical images for **AI-based diagnosis**. Task specific Computer Vision model powered agents - upload images from 'sample_images' folder to try out.
-- Ask medical queries to leverage **retrieval-augmented generation (RAG)** if information in memory or **web-search** to retrieve latest information.  
-- Use **voice-based** interaction (speech-to-text and text-to-speech).  
-- Review AI-generated insights with **human-in-the-loop verification**.  
+ 
